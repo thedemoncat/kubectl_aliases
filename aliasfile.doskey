@@ -1,0 +1,3 @@
+ku=kubectl $*
+kun=echo namespace=%DEFAULT_NAMESPACE% && kubectl -n=%DEFAULT_NAMESPACE% $*
+kudr=kubectl -n=default --dry-run=client -o=yaml $*
